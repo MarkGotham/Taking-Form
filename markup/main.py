@@ -29,8 +29,6 @@ def main(parser : IParser, renderer : IRenderer, inputFile : str, outputFile : s
     tree = Tree()
     tree.build(parser.getAnnotations(), parser.getScoreEnd()[0])
 
-    renderer.renderToFile(tree, outputFile)
-
     try:
         renderer.renderToFile(tree, outputFile)
     except:

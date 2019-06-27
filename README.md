@@ -4,7 +4,7 @@
 
 This repo provides the code and corpus for processing machine- and human-readable human analyses of musical form as reported in:
 
-Gotham, Mark and Matthew Ireland: 'Taking Form: A Representation Standard, Conversion Code, and Example Corpus for Recording, Visualizing, and Studying Analyses of Musical Form', in the Proceedings of the 20th International Society for Music Information Retrieval Conference, Delft, The Netherlands, 2019.
+Gotham, Mark and Matthew T. Ireland: 'Taking Form: A Representation Standard, Conversion Code, and Example Corpus for Recording, Visualizing, and Studying Analyses of Musical Form', in the Proceedings of the 20th International Society for Music Information Retrieval Conference, Delft, The Netherlands, 2019.
 
 ## Instructions for use
 
@@ -16,9 +16,9 @@ python markup/xml2table.py op2no1movt1.mxl op2no1movt1.csv
 
 Alternatively, use the scripts (scripts/table2brackets, scripts/xml2brackets and scripts/xml2table).
 
-To batch process every .mxl file in a 'corpus' folder:
+To batch process every .mxl file in a 'corpus' folder (paths are relative to the root directory of the repository):
 ```
-for f in ../path/to/corpus/*.mxl; do ./xml2table "$f" "${f%.mxl}.csv"; done
+for mxlFile in ../path/to/corpus/*.mxl; do scripts/xml2table "$mxlFile" "${mxlFile%.mxl}.csv"; done
 ```
 
 ## Acknowledging and Contributing
