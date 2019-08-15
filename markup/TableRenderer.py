@@ -5,7 +5,7 @@ from markup.Tree import Tree
 
 
 HEADER_ROWS = 1
-HEADER_COLUMNS = 3
+HEADER_COLUMNS = 2
 
 class TableRenderer(IRenderer):
     def __init__(self):

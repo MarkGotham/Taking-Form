@@ -3,7 +3,7 @@ import re
 from markup.ParseError import ParseError
 
 class Annotation:
-    def __init__(self, text : str, measure : int, beat : int):
+    def __init__(self, text : str, measure : int, beat : float):
         self.measure = measure
         self.beat = beat
 
@@ -29,7 +29,7 @@ class Annotation:
         return pattern.match(text)
 
     def __repr__(self):
-        return self.id+"("+str(self.measure)+","+str(self.beat)+")"
+        return f'{self.id}({self.measure},{round(self.beat, 2)})'
 
     def __eq__(self, other):
         if isinstance(other, Annotation):

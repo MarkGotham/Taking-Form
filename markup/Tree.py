@@ -18,7 +18,7 @@ class Node:
     def getMeasure(self) -> int:
         return self.annotation.measure
 
-    def getBeat(self) -> int:
+    def getBeat(self) -> float:
         return self.annotation.beat
 
     def getId(self) -> str:
@@ -26,16 +26,21 @@ class Node:
 
     def addChild(self, annotation):
         if (annotation.depth == self.getDepth()+1):
+            if annotation.measure != self.getMeasure() and self.getDepth() > 0 and len(self.children) == 0:
+                self.children.append(Node(Annotation(str(self.getDepth()+1)+": INSERTED LABEL", self.getMeasure(), self.getBeat())))
             self.children.append(Node(annotation))
-        else:
-            if (len(self.children) > 0):
-                self.children[-1].addChild(annotation)
-            else:
-                if (annotation.depth - self.getDepth() == 1):
-                    self.children = [Node(annotation)]
-                else: # TODO HACK need to think about how to correctly handle this case   #raise TreeBuildException(annotation)
-                    self.children = [Node(Annotation(str(self.getDepth()+1)+": FAKE LABEL", annotation.measure, annotation.beat))]
-                    self.addChild(annotation)
+            return
+
+        if (len(self.children) > 0):
+            self.children[-1].addChild(annotation)
+            return
+
+        if (annotation.depth - self.getDepth() == 1):
+            self.children = [Node(annotation)]
+            return
+
+        self.children = [Node(Annotation(str(self.getDepth()+1)+": INSERTED LABEL", self.getMeasure(), self.getBeat()))]
+        self.addChild(annotation)
 
     def getNextNode(self, nodeBefore):
         """
@@ -83,6 +88,16 @@ class RootNode(Node):
         self.__totalMeasures = totalMeasures
 
     def getDepth(self) -> int:
+        return 0
+
+    def getMeasure(self) -> int:
+        assert(False)
+        print('Should not call getMeasure() on RootNote')
+        return 0
+
+    def getBeat(self) -> float:
+        assert(False)
+        print('Should not call getBeat() on RootNote')
         return 0
 
     def getTotalMeasures(self) -> int:

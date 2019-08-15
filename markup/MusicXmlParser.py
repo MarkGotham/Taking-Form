@@ -39,17 +39,16 @@ class MusicXmlParser(IParser):
         finalBeat = 0
         annotationGroups = []
 
-        for element in score.recurse():
-            if (isinstance(element, bar.Barline)):
-                if element.measureNumber > finalMeasure:
-                    finalMeasure = element.measureNumber
-                    finalBeat = 0 #element.beat   TODO
+        finalMeasure = score.recurse().getElementsByClass('Measure')[-1].measureNumber
 
-            if isinstance(element, expressions.TextExpression) and Annotation.IsAnnotation(element.content):
-                try:
-                    annotationGroups.append(AnnotationGroup(element.content, element.measureNumber, 0)) #element.beat))   TODO
-                except Exception as e:
-                    raise ParseError(element.content, finalMeasure)
+        testExpressions = [x for x in score.recurse().getElementsByClass('TextExpression') \
+                            if Annotation.IsAnnotation(x.content)]
+
+        for element in testExpressions:
+            try:
+                annotationGroups.append(AnnotationGroup(element.content, element.measureNumber, element.beat))
+            except Exception as e:
+                raise ParseError(element.content, finalMeasure)
 
         self.__annotations = [annotation for group in annotationGroups for annotation in group.getAnnotations()]
         self.__finalMeasure = finalMeasure
