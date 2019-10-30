@@ -1,0 +1,36 @@
+1,1,Exposition,Introduction,Theme a,X
+4,1,,,,X
+8,1,,,,X
+12,1,,,,X
+16,1,,,,X
+,,,,,
+20,1,,First Subject Group,Theme b,X
+28,1,,,,X
+36,1,,,,X
+64,1,,,,X
+,,,,,
+76,1,,Second Subject Group,Theme c,
+96,1,,,Theme b,X
+112,1,,,,X
+,,,,,
+118,1,Development,Introduction,Theme b,X
+126,1,,,,X
+142,1,,Body,Theme d,X
+158,1,,,Theme b,X
+168,1,,,,X
+176,1,,,,X
+,,,,,
+212-255=20-63,,Recapitulation,,,
+256,1,,X,,
+268-299=176-197,,,,,
+300a,1,,X,,
+,,,,,
+Repeat: 118-307,,,,,
+,,,,,
+,,,,,
+308,1,Coda,Presto,Theme e,X
+Repeat: 308-315,,,,,
+316,1,,,,X
+Repeat: 316-325,,,,,
+325a,1,,,Theme a,X
+361,1,,,,

@@ -1,0 +1,28 @@
+1,-1,Scherzo,A,Theme a,X
+5,-1,,,,X
+Repeat: 1-8,,,,,
+,,,,,
+9,-1,,B,Theme a,X
+13,-1,,,,X
+,,,,,
+19,1,,,Theme b,X
+23,1,,,,X
+25,1,,,,X
+,,,,,
+33,-1,,A,Theme a,X
+37,-1,,,,X
+41,-1,,X,,
+,,,,,
+Repeat: 9-44,,,,,
+45,-1,Trio,A,Theme c,X
+49,1,,,,X
+,,,,,
+Repeat: 45-52,,,,,
+53,-1,,B,Theme c,X
+57,1,,,,X
+61,1,,A,Theme c,X
+65,1,,,,X
+,,,,,
+Repeat: 53-68,,,,,
+,,,,,
+Repeat: 1-44,,Scherzo da capo,,,

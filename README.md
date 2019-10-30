@@ -21,6 +21,12 @@ To batch process every .mxl file in a 'corpus' folder (paths are relative to the
 for mxlFile in ../path/to/corpus/*.mxl; do scripts/xml2table "$mxlFile" "${mxlFile%.mxl}.csv"; done
 ```
 
+## Corpus
+
+The corpus folder contains:
+- Beethoven piano sonatas: complete (103 movements)
+- More to follow
+
 ## Tabular Format Documentation
 
 Users may input rows for every measure or just the ones with annotations as they prefer:

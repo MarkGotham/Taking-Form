@@ -1,0 +1,46 @@
+1,-1,Exposition,First Subject Group,Theme a
+4,1,,,Theme b
+7,-1,,,
+8,1,,,Theme c
+12,-1,,Transition,Theme a
+16,1,,,Theme d
+18,1,,,
+20,1,,,
+22,1,,Second Subject Group,Theme e
+30,3,,,Theme f
+32,3,,,
+34,3,,,
+38,3,,,
+40,3,,,
+42,3,,,
+44,1,,,Theme g
+48,1,,,Theme h
+52,1.5,,,
+56,3,,Coda,Theme i
+58,3,,,
+60,3,,,
+62,1,,,Theme j
+Repeat: 1-68,,,,
+69,-1,Development,d1,
+75,3,,,Theme i
+77,3,,,
+79,3,,,
+81,1,,,Theme j
+85,1,,,
+89,1,,d2,
+93,1,,,
+97,1,,,
+101,1,,,
+105,1,,Re-transition,
+109,1,,,
+113,1,,,
+117,3,,,
+128-138=1-11,,Recapitulation,,
+131,1,,,Theme b
+134,1,,,
+135,1,,,Theme c
+139,1,,Transition,Theme a
+147,1,,,Theme d
+149,1,,,
+151,1,,,
+153-199=22-68,,,,

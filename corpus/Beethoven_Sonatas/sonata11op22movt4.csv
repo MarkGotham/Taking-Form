@@ -1,0 +1,28 @@
+1,-1,A,Theme a,X
+9,-1,,,X
+19,-1,Transition,Theme b,
+23,-1,,Theme c,
+32,1,B,X,
+36,1,,X,
+41,-1,Transition,,
+50-67=1-18,,,,
+68,-1,C,Theme b,
+72,,,Theme d,X
+76,,,,X
+78,,,,X
+81,-1,,Theme e,X
+89,-1,,,X
+95-103=72-80,,,,
+103,1,,Theme a,
+112-129=1-18,,,,
+130,-1,Transition,Theme b,
+136,-1,,Theme c,
+145,1,B,X,X
+149,1,,,X
+153,1,,Theme a,X
+157,1,,,X
+165-182=1-18,,,,
+183,-1,Coda,Theme b,X
+187,-1,,,X
+191,-1,,,X
+194,1,,Theme a,

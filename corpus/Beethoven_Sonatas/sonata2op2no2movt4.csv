@@ -1,0 +1,26 @@
+1,1,A,Theme a,Period,Antecedent,Basic idea
+3,-1,,,,,Contrasting idea
+5,1,,,,Consequent,Basic idea
+7,-1,,,,,Contrasting idea
+9,-1.5,,Theme b,X,,
+11,-1.5,,,X,,
+13,1,,Theme a,,,
+17,-1.5,Transition,Theme c,,,
+26,1,B,Theme d,,,
+41-56=1-16,,,,,,
+57,1,C,Theme e,,,
+Repeat: 57-66,,,,,,
+67,1,,X,,,
+75,1,,X,,,
+80,1,,X,,,
+88,1,,X,,,
+100-115=1-16,,,,,,
+123,1,B,,,,
+135,1,A,,,,
+139,1,Coda,X,,,
+148,1,,Theme a,X,,
+156,1,,,X,,
+161,1,,Theme e,,,
+173,1,,Theme a,X,,
+177,1,,,X,,
+187,1,,,X,,
