@@ -1,0 +1,28 @@
+[Andante
+    [Exposition
+        [Subject~I
+            [i 2 4 2 4 3 2 4 2 4 4]
+            [ii 4 4 4 1]
+            [iii 4 3 4 4]
+        ]
+        [Transition 4]
+        [Subject~II
+            [i 2 4 4 4 2 4 4 4 4]
+            [ii 4 3 4 4]
+            [i' 2 4 4 4 4! 4 4 4]
+        ]
+    ]
+    [Recapitulation
+        [Subject~I
+            [i 2 4 2 4 3 2 4 2 4 4]
+            [ii 4 4 4 1]
+            [iii 4 3 4 4]
+        ]
+        [Transition 4]
+        [Subject~II
+            [i 2 4 4 4 2 4 4 4 4]
+            [ii 4 3 4 4 2! 2 1 4 4 3]
+        ]
+        [Coda 6 6 6 4 6 4 4 4 4]
+    ]
+]

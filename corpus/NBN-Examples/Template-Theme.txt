@@ -1,0 +1,13 @@
+[First~Subject~Group
+        [Theme~a
+            [Sentence
+                [Presentation
+                    [Basic~idea 2 2]
+                ]
+                [Continuation
+                    [Fragmentation 2]
+                    [Cadence 2]
+                ]
+            ]
+        ]
+    ]

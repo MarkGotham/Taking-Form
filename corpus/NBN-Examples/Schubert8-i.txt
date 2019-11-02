@@ -1,0 +1,38 @@
+[Movement
+    [Exposition
+        [Subject~I
+            [i 4 4]
+            [ii 4 4 5 4 5 5 2]
+        ]
+        [Transition
+            [Tr 4]
+        ]
+        [Subject~II
+            [i 2 4 5 4 6]
+            [ii 4 4 2]
+            [iii 4 4 4 4 4]
+            [iv 1 5 5]
+        ]
+        [Codetta 2 4]
+        [Codetta~Repeat 2 4 4!]
+    ]
+    [Development
+        [I-i 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 2]
+        [I-ii 4 4 4 4 2 4 4 4 4 4 4]
+    ]
+    [Recapitulation
+        [Subject~I
+            [ii 4 4 5 4 5 5 5! 2]
+        ]
+        [Transition
+            [Tr 4]
+        ]
+        [Subject~II
+            [i 2 4 5 4 4! 6]
+            [ii 4 4 2]
+            [iii 4 4 4 4 4]
+            [iv 1 5 5 2!]
+        ]
+        [Coda 2 4 4 4 4 4 4 4 4 4 4 4]
+    ]
+]

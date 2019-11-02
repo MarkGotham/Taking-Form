@@ -24,8 +24,9 @@ for mxlFile in ../path/to/corpus/*.mxl; do scripts/xml2table "$mxlFile" "${mxlFi
 ## Corpus
 
 The corpus folder contains:
-- Beethoven piano sonatas: complete (103 movements)
-- More to follow
+- [Beethoven piano sonatas](/corpus/Beethoven_Sonatas/): complete (32 sonatas, 103 movements)
+- [Mozart piano sonatas](/corpus/Mozart_Sonatas/): complete (17 sonatas, 51 movements) [Coming soon]
+- ['NBN-Examples'](/corpus/NBN-Examples/): proof of concept examples of the nested bracket notation as discussed in the paper
 
 ## Tabular Format Documentation
 

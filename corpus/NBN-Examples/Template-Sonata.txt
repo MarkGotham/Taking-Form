@@ -1,0 +1,36 @@
+[Movement
+    [Exposition
+        [Subject~I
+            [i ]
+            [ii ]
+        ]
+        [Transition
+            [Tr ]
+        ]
+        [Subject~II
+            [i ]
+            [ii ]
+            [iii ]
+            [iv ]
+        ]
+        [Codetta ]
+        [Codetta~Repeat ]
+    ]
+    [Development
+        []
+    ]
+    [Recapitulation
+        [Subject~I
+            [ii ]
+        ]
+        [Transition
+            [Tr ]
+        ]
+        [Subject~II
+            [i ]
+            [ii ]
+            [iii ]
+        ]
+        [Coda ]
+    ]
+]
