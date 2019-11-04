@@ -6,7 +6,7 @@ This repo provides the code and corpus for processing machine- and human-readabl
 
 Gotham, Mark and Matthew T. Ireland: 'Taking Form: A Representation Standard, Conversion Code, and Example Corpus for Recording, Visualizing, and Studying Analyses of Musical Form', in the Proceedings of the 20th International Society for Music Information Retrieval Conference, Delft, The Netherlands, 2019.
 
-## Instructions for use
+## Code
 
 To process one conversion from music xml to tabular formats:
 ```
@@ -25,15 +25,33 @@ for mxlFile in ../path/to/corpus/*.mxl; do scripts/xml2table "$mxlFile" "${mxlFi
 
 The corpus folder contains:
 - [Beethoven piano sonatas](/corpus/Beethoven_Sonatas/): complete (32 sonatas, 103 movements)
-- [Mozart piano sonatas](/corpus/Mozart_Sonatas/): complete (17 sonatas, 51 movements) [Coming soon]
+- [Mozart piano sonatas](/corpus/Mozart_Sonatas/): 17 sonatas. Currently first movements only; complete 51 movements coming soon]. For encoded scores and clarity wrt the complex catalogue numbers, we recommend [Craig Sapp's Digital edition](https://github.com/craigsapp/mozart-piano-sonatas) and the [Verovio humdrum viewer](http://verovio.humdrum.org/).
 - ['NBN-Examples'](/corpus/NBN-Examples/): proof of concept examples of the nested bracket notation as discussed in the paper
 
-## Tabular Format Documentation
+## On-score markup
+
+- First, click on any note at the right measure and beat position for the marking you want to enter.
+- Enter a new textual marking at that position (most software provide CMD+T (Mac) / CNTRL+T (Windows) as a shortcut for this).
+- Begin each on-score mark-up with an initial character to specify a 'level number' for the marking in question, followed by a colon. For instance, 'Exposition', 'Development' and 'Recapitulation' will all be on the top level of division (number 1) in sonata form movements, so '1: Exposition'. All other levels continue the divisions from here, (e.g. '2: First Subject Group').
+- Where you wish to indicate a division, but have no name for the span in question, use the correct level number and a placeholder text like '4: X'.
+- In practice, many entries like '1: Exposition' and '2: First Subject Group' will begin at the same time. To indicate these multiple, simultaneous level entries, insert one text entry with all the component parts divided by a comma (','). For instance, many sonatas will begin with the long string: '1: Exposition, 2: First Subject Group, 3: Theme a, 4: Sentence, 5: Presentation, 6: Basic Idea'.
+
+All entries are relative to each other, so level numbers are given by finding the directly relevant parallel. These will fall into a few basic types of comparison:
+
+- A span and its first phrase-division will generally be used together, with the division at +1 level. For a phrase, we might have '4: Period, 5: Antecedent'.
+- The next division of that phrase ('Consequent') is at the same level of the first division ('Antecedent'), thus '5: Consequent'.
+- The next phrase outside of this span returns to the initial level, so '4: Period'.
+- When we eventually get to larger structural boundary then we have to find an entry at a comparable level, which will involve proportionately wider view. For the 'Recapitulation' we're starting again from the top level (so '1: Recapitulation'), while for the second subject group it's level 2 ('2: Second Subject Group').
+
+Note that while the numbers assigned to the top levels will be consistent within and even across pieces ('Exposition', 'Development' and 'Recapitulation' will almost always appear as a set at level 1), those at lower levels will vary depending on the number of level divisions above them.
+For instance, the same phrase grouping structure may appear at multiple levels across a piece: at lower levels in a long and richly-structured exposition, but at nominally 'higher' levels in a short Coda with fewer divisions.
+
+## Tabular Format
 
 Users may input rows for every measure or just the ones with annotations as they prefer:
 - Rows with with no formal annotation are ignored;
 - Comparative deductions are made directly from the measure number of the relevant rows;
-- Row 0 may be a header, or just proceed directly to the first measure in the piece (put another way, if it is text, it will be taken as a header and ignored).
+- The first row may be a header, or just proceed directly to the first measure in the piece (put another way, if it is text, it will be taken as a header and ignored).
 
 With or without the headers, the columns correspond to:
 - Measure (column 0);
