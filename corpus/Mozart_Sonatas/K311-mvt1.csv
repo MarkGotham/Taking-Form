@@ -1,0 +1,109 @@
+1,1,Exposition,First Subject,Theme a,Period,Antecedent,
+2,,,,,,,
+3,-2,,,,,Consequent,
+4,1,,,,Period,Antecedent,
+5,,,,,,,
+6,-2,,,,,Consequent,
+7,1,,,Theme b,Sentence,Presentation,Basic idea
+8,,,,,,,
+9,1,,,,,,Basic idea
+10,,,,,,,
+11,1,,,,,Continuation,Fragmentation 1
+12,,,,,,,
+13,1,,,,,,Fragmentation 2
+14,,,,,,,
+15,1,,,,,,Cadence
+16,,,,,,,
+17,-1,,Second Subject Group,Theme c,Sentence,Presentation,Basic idea
+18,-0.5,,,,,,Basic idea
+19,-0.5,,,,,Continuation,Fragmentation
+20,-0.5,,,,,,Cadence
+21,-1.5,,,,Sentence,Presentation,Basic idea
+22,-0.5,,,,,,Basic idea
+23,-0.5,,,,,Continuation,Cadence
+24,2.5,,,,X,X,
+25,,,,,,,
+26,2.5,,,,,X,
+27,,,,,,,
+28,2,,,Theme d,X,X,
+29,,,,,,,
+30,2,,,,,X,
+31,,,,,,,
+32,2,,,,X,X,
+33,,,,,,,
+34,2,,,,,X,
+35,,,,,,,
+36,1,,Codetta,X,,,
+37,1,,,,,,
+38,1,,,Theme e,,,
+39,1,,,,,,
+Repeat: 1-39,,,,,,,
+,,,,,,,
+40,1,Development,Body 1,Theme e,X,X,X
+41,,,,,,,
+42,1,,,,,,X
+43,,,,,,,
+44,1,,,,,X,X
+45,,,,,,,
+46,1,,,,,,X
+47,,,,,,,
+48,1,,,,X,X,X
+49,,,,,,,
+50,1,,,,,,X
+51,,,,,,,
+52,1,,,,,X,X
+53,,,,,,,
+54,1,,,,,,X
+55,,,,,,,
+56,1,,Link,,,,
+57,,,,,,,
+58,2,,Body 2,Theme d,X,X,
+59,,,,,,,
+60,2,,,,,X,
+61,,,,,,,
+62,2,,,,X,X,
+63,,,,,,,
+64,2,,,,,X,
+65,,,,,,,
+66,1,,,Theme c,X,X,
+67,1,,,,,,
+68,1,,,,,X,
+69,1,,,,,,
+70,1,,,,X,,
+71,1,,,,,,
+72,1,,,,,,
+73,1,,,,,,
+74,1,,,,,,
+75,1,,,Link,X,,
+76,1,,,,,,
+77,1,,,,X,,
+78,1,,,,,,
+79,-1,Reverse recaiputlation,Second Subject Group,Theme c,Sentence,Presentation,Basic idea
+80,-0.5,,,,,,Basic idea
+81,-0.5,,,,,Continuation,Fragmentation
+82,-0.5,,,,,,Cadence
+83,-1.5,,,,Sentence,Presentation,Basic idea
+84,-0.5,,,,,,Basic idea
+85,-0.5,,,,,Continuation,Fragmentation
+86,-0.5,,,,,,Cadence
+87,2.5,,,,X,X,
+88,,,,,,,
+89,2.5,,,,,X,
+90,,,,,,,
+91,2,,,Theme d,X,X,
+92,,,,,,,
+93,2,,,,,X,
+94,,,,,,,
+95,2,,,,X,X,
+96,,,,,,,
+97,2,,,,,X,
+98,,,,,,,
+99-104=1-6,,"""Real"" recaiputlation?",,,,,
+,,,,,,,
+105,1,,,X,X,,
+106,1,,,,,,
+107,1,,,,X,,
+108,1,,,,,,
+109-112=36-39,,,,,,,
+,,,,,,,
+Repeat: 40-112,,,,,,,
