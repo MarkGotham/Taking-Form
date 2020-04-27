@@ -4,7 +4,7 @@
 
 This repo provides the code and corpus for processing machine- and human-readable human analyses of musical form as reported in:
 
-Gotham, Mark and Matthew T. Ireland: 'Taking Form: A Representation Standard, Conversion Code, and Example Corpus for Recording, Visualizing, and Studying Analyses of Musical Form', in the Proceedings of the 20th International Society for Music Information Retrieval Conference, Delft, The Netherlands, 2019.
+[Gotham, Mark and Matthew T. Ireland: 'Taking Form: A Representation Standard, Conversion Code, and Example Corpus for Recording, Visualizing, and Studying Analyses of Musical Form', in the Proceedings of the 20th International Society for Music Information Retrieval Conference, Delft, The Netherlands, 2019.](http://archives.ismir.net/ismir2019/paper/000084.pdf)
 
 ## Code
 
