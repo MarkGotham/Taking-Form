@@ -4,9 +4,9 @@ Usage: python xml2brackets.py <source.musicxml> <outputFile.txt>
 
 import sys
 
-from markup.BracketsRenderer import BracketsRenderer
-from markup.main import main
-from markup.MusicXmlParser import MusicXmlParser
+from BracketsRenderer import BracketsRenderer
+from main import main
+from MusicXmlParser import MusicXmlParser
 
 
 if __name__ == '__main__':

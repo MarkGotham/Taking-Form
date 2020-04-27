@@ -5,10 +5,10 @@ Converter code used by xml2table.py, xml2brackets.py, table2brackets.py
 import sys
 import traceback
 
-from markup.IParser import IParser
-from markup.IRenderer import IRenderer
-from markup.ParseError import ParseError
-from markup.Tree import Tree
+from IParser import IParser
+from IRenderer import IRenderer
+from ParseError import ParseError
+from Tree import Tree
 
 
 def main(parser : IParser, renderer : IRenderer, inputFile : str, outputFile : str) -> None:

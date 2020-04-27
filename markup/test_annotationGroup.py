@@ -1,7 +1,7 @@
 from unittest import TestCase
 
-from markup.Annotation import Annotation
-from markup.AnnotationGroup import AnnotationGroup
+from Annotation import Annotation
+from AnnotationGroup import AnnotationGroup
 
 class TestAnnotationGroup(TestCase):
     def test_getAnnotations_SingleAnnotation_CorrectString(self):

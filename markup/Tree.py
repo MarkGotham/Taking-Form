@@ -1,4 +1,4 @@
-from markup.Annotation import Annotation
+from Annotation import Annotation
 
 import sys
 

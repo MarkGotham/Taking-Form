@@ -4,9 +4,9 @@ Usage: python table2brackets.py <tableFile.csv> <outputFile.txt>
 
 import sys
 
-from markup.BracketsRenderer import BracketsRenderer
-from markup.main import main
-from markup.TableParser import TableParser
+from BracketsRenderer import BracketsRenderer
+from main import main
+from TableParser import TableParser
 
 
 if __name__ == '__main__':

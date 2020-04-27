@@ -1,7 +1,7 @@
 from unittest import TestCase
 
-from markup.Annotation import Annotation
-from markup.Tree import Tree
+from Annotation import Annotation
+from Tree import Tree
 
 
 class TestTree(TestCase):

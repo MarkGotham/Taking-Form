@@ -2,8 +2,8 @@ import os
 
 from unittest import TestCase
 
-from markup.Annotation import Annotation
-from markup.MusicXmlParser import MusicXmlParser
+from Annotation import Annotation
+from MusicXmlParser import MusicXmlParser
 
 class TestMusicXmlParser(TestCase):
     def test_load(self):

@@ -5,10 +5,10 @@ import traceback
 from unittest import TestCase
 
 from markup import ParseError
-from markup.Annotation import Annotation
-from markup.MusicXmlParser import MusicXmlParser
-from markup.Tree import Tree
-from markup.TreeDistanceComparator import TreeDistanceComparator
+from Annotation import Annotation
+from MusicXmlParser import MusicXmlParser
+from Tree import Tree
+from TreeDistanceComparator import TreeDistanceComparator
 
 
 class TestTreeDistanceComparator(TestCase):

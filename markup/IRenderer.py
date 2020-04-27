@@ -1,5 +1,5 @@
 from abc import ABCMeta, abstractmethod
-from markup.Tree import Tree
+from Tree import Tree
 
 
 class IRenderer:

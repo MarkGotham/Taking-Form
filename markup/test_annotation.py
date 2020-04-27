@@ -1,6 +1,6 @@
 from unittest import TestCase
 
-from markup.Annotation import Annotation
+from Annotation import Annotation
 
 
 class TestAnnotation(TestCase):

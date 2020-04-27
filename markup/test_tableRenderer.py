@@ -1,8 +1,8 @@
 import os
 
-from markup.Annotation import Annotation
-from markup.TableRenderer import TableRenderer
-from markup.Tree import Tree
+from Annotation import Annotation
+from TableRenderer import TableRenderer
+from Tree import Tree
 from unittest import TestCase
 
 

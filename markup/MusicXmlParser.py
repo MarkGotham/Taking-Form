@@ -1,9 +1,9 @@
 import os
 
-from markup.Annotation import Annotation
-from markup.AnnotationGroup import AnnotationGroup
-from markup.IParser import IParser
-from markup.ParseError import ParseError
+from Annotation import Annotation
+from AnnotationGroup import AnnotationGroup
+from IParser import IParser
+from ParseError import ParseError
 from music21 import bar
 from music21 import common
 from music21 import converter

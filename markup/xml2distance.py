@@ -6,10 +6,10 @@ Output: A number (the tree edit distance between the two sources) and a string i
 import sys
 import traceback
 
-from markup.ParseError import ParseError
-from markup.MusicXmlParser import MusicXmlParser
-from markup.Tree import Tree
-from markup.TreeDistanceComparator import TreeDistanceComparator
+from ParseError import ParseError
+from MusicXmlParser import MusicXmlParser
+from Tree import Tree
+from TreeDistanceComparator import TreeDistanceComparator
 
 
 if __name__ == '__main__':

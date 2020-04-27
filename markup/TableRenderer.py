@@ -1,7 +1,7 @@
 import numpy as np
 
-from markup.IRenderer import IRenderer
-from markup.Tree import Tree
+from IRenderer import IRenderer
+from Tree import Tree
 
 
 HEADER_ROWS = 1

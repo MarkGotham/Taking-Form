@@ -1,6 +1,6 @@
 from abc import ABCMeta, abstractmethod
 
-from markup.Annotation import Annotation
+from Annotation import Annotation
 
 
 class IParser:

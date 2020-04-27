@@ -1,6 +1,6 @@
 import re
 
-from markup.ParseError import ParseError
+from ParseError import ParseError
 
 class Annotation:
     def __init__(self, text : str, measure : int, beat : float):

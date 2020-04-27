@@ -1,9 +1,9 @@
 import numpy as np
 import os
 
-from markup.Annotation import Annotation
-from markup.IParser import IParser
-from markup.TableAnnotation import TableAnnotation
+from Annotation import Annotation
+from IParser import IParser
+from TableAnnotation import TableAnnotation
 
 
 class TableParser(IParser):

@@ -1,5 +1,5 @@
-from markup.IRenderer import IRenderer
-from markup.Tree import Tree
+from IRenderer import IRenderer
+from Tree import Tree
 
 
 INDENT_SIZE = 4             # number of spaces added for each level in the tree

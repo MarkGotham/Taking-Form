@@ -1,4 +1,4 @@
-from markup.Annotation import Annotation
+from Annotation import Annotation
 
 class TableAnnotation(Annotation):
     def __init__(self, id : str, depth : int, measure : int, beat : int):
